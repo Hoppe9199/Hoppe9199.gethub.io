@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>    
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎来到郝为翔宇的个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:  #FFC0CB;
+        }
+        header {
+            text-align: center;
+            background-color: #FFC0CB;
+            color: #ffffff;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .content img {
+            max-width: 300px;
+            border: 2px solid #FFC0CB;
+            margin-bottom: 10px;
+        }
+        .info {
+            width: 40%;
+            background-color: #87CEFA;
+            padding: 20px;
+            text-align: right;
+        }
+        .info h2 {
+            font-size: 20px;
+        }
+        .info p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color:#87CEFA;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 20;
+        }
+        nav li {
+            display: inline;
+            margin: 30px;
+        }
+        /* .subpage {
+            display: none;
+            background-color: #fff;
+            padding: 40px;
+            margin: 40px;
+        } */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到郝为翔宇的个人网页</h1>
+    </header>
+    <style>
+        /* 弹出窗口样式 */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 40px;
+            z-index: 1;
+        }
+    </style>
+    <nav>
+        <ul>
+            <li><a href="javascript:void(0);" onclick="openPopup('page1')">个人信息</a></li>
+            <li><a href="javascript:void(0);" onclick="openPopup('page2')">兴趣爱好</a></li>
+            <li><a href="javascript:void(0);" onclick="openPopup('page3')">八卦信息</a></li>
+        </ul>
+    </nav>
+
+    <!-- 弹出窗口内容 -->
+    <div id="page1" class="popup">
+        <h2>嘿嘿</h2>
+        <p>不告诉你不告诉你不告诉你不告诉你</p>
+        <button onclick="closePopup('page1')">关闭</button>
+    </div>
+
+    <div id="page2" class="popup">
+        <h2>嘿嘿</h2>
+        <p>不告诉你不告诉你不告诉你不告诉你</p>
+        <button onclick="closePopup('page2')">关闭</button>
+    </div>
+
+    <div id="page3" class="popup">
+        <h2>嘿嘿</h2>
+        <p>不告诉你不告诉你不告诉你不告诉你</p>
+        <button onclick="closePopup('page3')">关闭</button>
+    </div>
+
+    <script>
+        // 打开子窗口
+        function openPopup(subpageId) {
+            document.getElementById(subpageId).style.display = 'block';
+        }
+
+        // 关闭子窗口
+        function closePopup(subpageId) {
+            document.getElementById(subpageId).style.display = 'none';
+        }
+    </script>
+</body>
+</html>
+
+</html>
+<body>
+    <div class="content">
+        <div class="images">
+            <img src="C:\Users\16547\Desktop\test\i1.jpg" alt="Image 1">
+            <img src="C:\Users\16547\Desktop\test\s3.jpg" alt="Image 2">
+            <img src="C:\Users\16547\Desktop\test\i2.jpg" alt="Image 3">
+            <img src="C:\Users\16547\Desktop\test\s2.jpg" alt="Image 4">
+            <img src="C:\Users\16547\Desktop\test\i3.jpg" alt="Image 5">
+            <img src="C:\Users\16547\Desktop\test\p1.jpg" alt="Image 6">
+        </div>
+        <div class="info">
+            <h2>这是我</h2>
+            <p class="left-align">大家好我是郝为翔宇，来自数据科学与商务统计。</p>
+            <p class="left-align">山东人，却没有山东人的身高，平时喜欢看看书，打打游戏， 爱听rnb。</p>
+            <h2>我长这样</h2>
+            <img src="C:\Users\16547\Desktop\test\p3.jpg" alt="Your Photo">
+        </div>
+    </div>
+</body>
+<nav>
+    <ul>
+        <li><a href="new.html" target="_blank">联系我</a></li>
+    </ul>
+</nav>
